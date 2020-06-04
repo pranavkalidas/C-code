@@ -13,7 +13,7 @@ int main()
     for(c=pos-1;c<n-1;c++)
         arr[c]=arr[c+1];
     n--;
-    printf("The new array is:\n",arr);
+    printf("The new array is:\n");
     for(c=0;c<n;c++)
         printf("%d\t",arr[c]);
     return 0;
